@@ -1,0 +1,43 @@
+
+<html>
+<head>
+	<title></title>
+</head>
+<body><!-- Replace device ID with your actual device ID
+and replace access token with your actual access token-->
+<center>
+<h2>LCD control</h2>
+
+<form action="https://api.particle.io/v1/devices/REPLACEDEVICEID/clear?access_token=REPLACEACCESSTOKEN" method="POST">Control The LCD with particle<br />
+&nbsp;
+<h3><input name="args" type="radio" value="anything" />clear.<br />
+<br />
+<input type="submit" value="Do it!" /></h3>
+</form>
+
+<br>
+<form action="https://api.particle.io/v1/devices/REPLACEDEVICEID/beep?access_token=REPLACEACCESSTOKEN" method="POST"><br />
+&nbsp;
+<h3><input name="args" type="radio" value="anything" />Beep (or flash led) .<br />
+<br />
+<input type="submit" value="Do it!" /></h3>
+</form>
+<br>
+
+<form action="https://api.particle.io/v1/devices/REPLACEDEVICEID/up?access_token=REPLACEACCESSTOKEN" method="POST">
+  Top:<br>
+  <input name="args" type="text">
+  <br>submit
+  <input type="submit" value="Do it!" />
+</form>
+
+<form action="https://api.particle.io/v1/devices/REPLACEDEVICEID/down?access_token=REPLACEACCESSTOKEN" method="POST">
+  Down:<br>
+  <input name="args" type="text">
+  <br>submit
+  <input type="submit" value="Do it!" />
+</form>
+
+</center>
+</body>
+</html>
