@@ -7,7 +7,18 @@ Control the text shown on the  photon-connected LCD using a HTML web-page so tha
 
 Hardware Setup:
 ===============
-Wire LCD like so: http://jongallant.com/images/blog/60df869b7a82_1178E/image_thumb.png  
+Wire LCD like so:
+LCD RS pin to digital pin D0
+LCD EN pin to digital pin D1
+LCD D4 pin to digital pin D2
+LCD D5 pin to digital pin D3
+LCD D6 pin to digital pin D4
+LCD D7 pin to digital pin D5
+10K resistor:
+ends to +5V and ground
+wiper to LCD VO pin (pin 3)
+connect R/W (pin 5) to ground
+
 (Optional) Wire buzzer/led to analog 5 & ground  
 
 Hardware Requirements:
